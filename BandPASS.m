@@ -58,5 +58,5 @@ subplot(414);
 plot(f,2*abs(s586_fft));hold on;
 plot(f,2*abs(s863_fft),'r');grid on;
 axis([0 500 0 10])
-title('After filtering ini frequency domain')
+title('After filtering frequency domain')
 legend('586Hz','863Hz')
